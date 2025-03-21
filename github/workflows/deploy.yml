@@ -2,7 +2,8 @@ name: CI/CD AWS Deployment
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build-test:
